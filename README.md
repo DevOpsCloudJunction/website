@@ -13,7 +13,7 @@
 </h3>
 
 <p align="center">
-  Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.
+  Welcome to DevOpsCloud Junction, Connect, learn and grow with cloud and devops!
 </p>
 
 <p align="center">

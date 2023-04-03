@@ -34,11 +34,11 @@
   identifier = "lorem"
   url = "/tutorial/lorem/"
 
-[[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
+#[[main]]
+#  name = "Docs"
+#  url = "/docs/prologue/introduction/"
 # url = "/docs/1.0/prologue/introduction/"
-  weight = 10
+#  weight = 10
 
 # [[main]]
 #   name = "Tutorial"
@@ -51,12 +51,12 @@
   weight = 20
 
 
-[[main]]
-  name = "cicd"
-  weight = 40
-  identifier = "CloudDocs"
-  url = "/docs/CloudDocs/Introduction/"
-  parent = "Documentation"
+#[[main]]
+#  name = "cicd"
+#  weight = 40
+#  identifier = "CloudDocs"
+#  url = "/docs/CloudDocs/Introduction/"
+#  parent = "Documentation"
 
 
 [[social]]
@@ -72,7 +72,7 @@
   url = "https://twitter.com/devopscloudjunction"
   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+ [[footer]]
+   name = "Privacy"
+   url = "/privacy-policy/"
+   weight = 10

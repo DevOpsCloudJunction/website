@@ -4,8 +4,8 @@
 - id: on-this-page
   translation: "On this page"
 
-- id: search-text
-  translation: "Search docs..."
+- id: search-blog
+  translation: "Search blog..."
 
 - id: 404-title
   translation: "Page not found :("

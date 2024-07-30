@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>{{ .Params.name }}</h1>
+<img src="{{ .Params.image | absURL }}" alt="{{ .Params.name }}">
+<p>{{ .Params.bio }}</p>
+<h2>Posts by {{ .Params.name }}</h2>
+<ul>
+    {{ range where .Site.Pages "Params.author" .Params.name }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+{{ end }}

@@ -4,6 +4,7 @@
     <article>
       <h1>{{ .Title }}</h1>
       {{ .Content }}
+      <p>Author: <a href="{{ .Params.author | urlize }}">{{ .Params.author }}</a></p>
     </article>
   </div>
 </div>

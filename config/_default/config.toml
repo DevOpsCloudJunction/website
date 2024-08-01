@@ -60,6 +60,7 @@ rel  = "sitemap"
   contributor = "contributors"
   category = "categories"
   tag = "tags"
+  author = "authors"
 
 [permalinks]
   blog = "/blog/:title/"

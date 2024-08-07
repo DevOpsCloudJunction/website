@@ -1,5 +1,5 @@
 ---
-title: "DevOps Tools Simplify Software Implementation"
+title: "Simplify Software Implementation"
 description: "The DevOps Methodology Merges Software Development and Operations"
 excerpt: "The DevOps Methodology Merges Software Development and Operations"
 date: 2023-03-27T09:19:42+01:00
@@ -9,8 +9,8 @@ weight: 45
 images: [devops.jpeg]
 categories: ["News"]
 tags: ["CI/CD", "performance", "Devops"]
-contributors: ["amrit-chaggar"]
-author: amrit-chaggar
+contributors: ["balasundaram-karthikeyen-jayaraman"]
+author: balasundaram-karthikeyen-jayaraman
 pinned: true
 homepage: true
 ---

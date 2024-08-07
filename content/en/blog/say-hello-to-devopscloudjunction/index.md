@@ -10,7 +10,7 @@ weight: 50
 images: [hello.jpg]
 categories: ["News"]
 tags: ["cloud", "devops", "devopscloud"]
-contributors: ["Sathish Kumar Amrit Chaggar Balasundaram Karthick Sai"]
+contributors: ["sathish-kumar"]
 pinned: false
 homepage: false
 ---

@@ -2,7 +2,7 @@
 title: "Say hello to DevOpsCloudJunction 👋"
 description: "Introducing to DevOpsCloudJunction."
 excerpt: "Introducing DevOpsCloudJunction, Connect, learn and grow with cloud and devops!"
-author: "Amrit S. Chaggar"
+author: sathish-kumar
 date: 2023-04-02T09:19:42+01:00
 lastmod: 2023-04-02T09:19:42+01:00
 draft: false

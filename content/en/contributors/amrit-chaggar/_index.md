@@ -10,4 +10,4 @@ images: []
 Amrit is an IT professional whose interests in cloud computing, kubernetes and platform. 
 
 
-[@bala](https://twitter.com/amritchaggar007)
+[@amritchaggar007](https://twitter.com/amritchaggar007)

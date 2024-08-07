@@ -10,7 +10,6 @@ images: [devops.jpeg]
 categories: ["News"]
 tags: ["CI/CD", "performance", "Devops"]
 contributors: ["balasundaram-karthikeyen-jayaraman"]
-author: balasundaram-karthikeyen-jayaraman
 pinned: true
 homepage: true
 ---

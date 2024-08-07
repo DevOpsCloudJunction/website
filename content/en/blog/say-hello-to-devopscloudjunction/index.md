@@ -10,7 +10,7 @@ weight: 50
 images: [hello.jpg]
 categories: ["News"]
 tags: ["cloud", "devops", "devopscloud"]
-contributors: ["sathish-kumar"]
+contributors: ["sathish-kumar-venkatesan"]
 pinned: false
 homepage: false
 ---

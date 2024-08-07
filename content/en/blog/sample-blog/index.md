@@ -9,8 +9,7 @@ weight: 45
 images: [devops.jpeg]
 categories: ["News"]
 tags: ["CI/CD", "performance", "Devops"]
-contributors: ["amrit-chaggar"]
-author: amrit-chaggar
+contributors: ["amrit-singh-chaggar"]
 pinned: true
 homepage: true
 ---

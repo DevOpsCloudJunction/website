@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://devopscloudjunction.com"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

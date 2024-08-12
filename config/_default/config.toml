@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://devopscloudjunction.com"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -12,6 +12,8 @@ rssLimit = 10
 defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
 # defaultContentLanguageInSubdir = true
+
+copyRight = "Copyright (c) 2020-2024 Hyas"
 
 # add redirects/headers
 [outputs]

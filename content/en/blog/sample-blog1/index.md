@@ -7,8 +7,8 @@ lastmod: 2020-11-04T09:19:42+01:00
 draft: false
 weight: 45
 images: [devops.jpeg]
-categories: ["News"]
-tags: ["CI/CD", "performance", "Devops"]
+categories: ["DevOps"]
+tags: ["CI/CD", "performance", "DevOps"]
 contributors: ["balasundaram-karthikeyen-jayaraman"]
 pinned: true
 homepage: true

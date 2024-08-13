@@ -9,7 +9,7 @@ draft: false
 weight: 50
 images: [hello.jpg]
 categories: ["News"]
-tags: ["cloud", "devops", "devopscloud"]
+tags: ["cloud", "devops", "devopscloud", "kubernetes"]
 contributors: ["sathish-kumar-venkatesan"]
 pinned: false
 homepage: false

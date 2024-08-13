@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-description: "Welcome to DevOpsCloud Junction, Connect, learn and grow with cloud and devops!"
-lead: "Welcome to DevOpsCloud Junction, Connect, learn and grow with cloud and devops!"
+description: "Welcome to DevOpsCloud Junction, Connect, learn, and thrive in Cloud, DevOps, and Kubernetes!"
+lead: "Welcome to DevOpsCloud Junction, Connect, learn, and thrive in Cloud, DevOps, and Kubernetes!"
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false

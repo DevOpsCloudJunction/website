@@ -7,8 +7,8 @@ lastmod: 2024-11-04T09:19:42+01:00
 draft: false
 weight: 60
 images: [autoscaling.jpg]
-categories: ["News"]
-tags: ["Kubenetes", "scalability", "performance"]
+categories: ["Kubernetes"]
+tags: ["Kubernetes", "scalability", "performance"]
 contributors: ["amrit-singh-chaggar"]
 pinned: true
 homepage: true

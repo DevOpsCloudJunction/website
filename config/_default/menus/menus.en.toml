@@ -2,7 +2,7 @@
   name = "Prologue"
   weight = 10
   identifier = "prologue"
-  url = "/blog/"
+  url = "/posts/"
 
 [[docs]]
   name = "CloudDocs"
@@ -47,7 +47,7 @@
 
 #[[main]]
 #  name = "Blog"
-#  url = "/blog/"
+#  url = "/posts/"
 #  weight = 20
 
 

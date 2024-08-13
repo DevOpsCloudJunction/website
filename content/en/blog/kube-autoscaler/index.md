@@ -5,7 +5,7 @@ excerpt: "Autoscaling Pods in Kubernetes: A Comprehensive Guide"
 date: 2024-08-12T09:19:42+01:00
 lastmod: 2024-11-04T09:19:42+01:00
 draft: false
-weight: 45
+weight: 60
 images: [autoscaling.jpg]
 categories: ["News"]
 tags: ["Kubenetes", "scalability", "performance"]

@@ -3,7 +3,7 @@
 ## Homepage
 title = "DevOps Cloud Junction"
 titleSeparator = "-"
-titleAddition = "Welcome to DevOpsCloud Junction, Connect, learn and grow with cloud and devops!"
+titleAddition = "Welcome to DevOpsCloud Junction, Connect, learn, and thrive in Cloud, DevOps, and Kubernetes!"
 description = "Our website provides a comprehensive resource for implementing and managing a DevOps culture in your organization. We offer guides, tutorials, and case studies on the latest tools, technologies, and best practices for DevOps, including continuous integration and deployment, containerization, and automated testing"
 
 ## Documentation
@@ -13,7 +13,7 @@ description = "Our website provides a comprehensive resource for implementing an
 images = ["doks.png"]
 ogLocale = "en_US"
 domainTLD = "devopscloudjunction.com"
-titleHome = "Connect, learn and grow with cloud and devops!"
+titleHome = "Connect, learn, and thrive in Cloud, DevOps, and Kubernetes!"
 
 ## Twitter Cards
 twitterSite = "@devopscloudjunction"
@@ -65,10 +65,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Made with ❤ in Canada, Copyright (c) 2024 DevOpsCloudJunction"
+footer = "Made with ❤ in Canada, Copyright © 2024 DevOpsCloudJunction"
 
 # Feed
-copyRight = "Copyright (c) 2024 DevOpsCloudJunction"
+copyRight = "Copyright © 2024 DevOpsCloudJunction"
 
 # Alert
 alert = false

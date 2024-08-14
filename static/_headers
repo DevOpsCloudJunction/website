@@ -1,1 +1,1 @@
-Content-Security-Policy: default-src 'self'; script-src 'self';
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.netlify.app; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'

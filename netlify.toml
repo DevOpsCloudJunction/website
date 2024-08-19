@@ -47,4 +47,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy: script-src 'self' 'sha512-RGGByJUOP98hE4wFZM78RM/3MijWJs0Tm0DbfrFhCDCXKXfDx60fii+syp5iMs3UcNX/1H4zJNgmqSejfhHrYw==' https://www.googletagmanager.com;
+    Content-Security-Policy = "script-src 'self' 'sha512-RGGByJUOP98hE4wFZM78RM/3MijWJs0Tm0DbfrFhCDCXKXfDx60fii+syp5iMs3UcNX/1H4zJNgmqSejfhHrYw==' https://www.googletagmanager.com"

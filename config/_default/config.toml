@@ -111,3 +111,9 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/@hyas/images/layouts"
     target = "layouts"
+#Adding Google Analytics   
+[services]
+  [services.googleAnalytics]
+    ID = 'G-J1ZLS1SH1C'
+
+

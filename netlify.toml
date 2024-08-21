@@ -53,7 +53,7 @@
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
     #Content-Security-Policy = "base-uri 'self'; default-src 'self' 'unsafe-inline' 'unsafe-eval' 'nonce-8IBTHwOdqNKAWeKl7plt8g==' https://*.netlify.app https://www.googletagmanager.com 'sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855';"
-    Content-Security-Policy = "default-src 'self';script-src 'self' www.googletagmanager.com/gtag/js; connect-src www.google-analytics.com;"
+    Content-Security-Policy = "default-src 'self';script-src 'self' 'nonce-8IBTHwOdqNKAWeKl7plt8g==' 'sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855' www.googletagmanager.com/gtag/js; connect-src www.google-analytics.com;"
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin"
     Permissions-Policy = "geolocation=(self), microphone=(), camera=()"

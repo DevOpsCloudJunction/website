@@ -52,7 +52,7 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "base-uri 'self'; default-src; report-uri https://www.googletagmanager.com/gtag/js?id=G-J1ZLS1SH1C;"
+    Content-Security-Policy = "base-uri 'self'; default-src *; report-uri https://www.googletagmanager.com/gtag/js?id=G-J1ZLS1SH1C;"
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin"
     Permissions-Policy = "geolocation=(self), microphone=(), camera=()"

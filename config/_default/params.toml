@@ -112,3 +112,9 @@ lastMod = false
   [menu.section]
     auto = true
     collapsibleSidebar = true
+    
+# Set site log or disable
+siteLogo = true
+siteLogoLight = "/images/logo-lighttheme.png"
+siteLogoDark = "/images/logo-darktheme.png"
+siteLogoWidth = "60px" # width adjustment or set 'auto'

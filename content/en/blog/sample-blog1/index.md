@@ -9,7 +9,7 @@ weight: 45
 images: [devops.jpeg]
 categories: ["DevOps"]
 tags: ["CI/CD", "performance", "DevOps"]
-contributors: ["balasundaram-karthikeyen-jayaraman"]
+contributors: ["balasundaram"]
 pinned: true
 homepage: true
 ---

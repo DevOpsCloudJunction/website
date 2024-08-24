@@ -9,7 +9,7 @@ weight: 60
 images: [autoscaling.jpg]
 categories: ["Kubernetes"]
 tags: ["Kubernetes", "scalability", "performance"]
-contributors: ["amrit-singh-chaggar"]
+contributors: ["achagar007"]
 pinned: true
 homepage: true
 ---

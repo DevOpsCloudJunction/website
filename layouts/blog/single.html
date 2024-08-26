@@ -25,7 +25,7 @@
   </div>
 </div>
 </article>
-
+{{ template "_internal/disqus.html" . }}
 {{ $related := .Site.RegularPages.Related . | first 3 -}}
 {{ with $related -}}
 <div class="related-posts">
@@ -50,8 +50,10 @@
     </div>
   </div>
   {{ end -}}
+  
 </div>
 </div>
+
 {{ end -}}
 
 {{ end }}

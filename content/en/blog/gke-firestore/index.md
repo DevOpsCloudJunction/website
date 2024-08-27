@@ -7,8 +7,8 @@ lastmod: 2024-08-23T09:19:42+01:00
 draft: false
 weight: 70
 images: []
-categories: ["Kubernetes", "Firestore", "Workload-identiy"]
-tags: [["Kubernetes", "Firestore", "Workload-identiy"
+categories: ["Kubernetes", "Firestore", "Workload-identity"]
+tags: ["Kubernetes", "Firestore", "Workload-identity"]
 contributors: ["balabtech"]
 pinned: true
 homepage: true

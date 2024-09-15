@@ -13,14 +13,7 @@ defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
 # defaultContentLanguageInSubdir = true
 
-# Comment config
-[params.page.comment]
-  enable = true
-  # Disqus comment config (https://disqus.com/)
-  [params.page.comment.disqus]
-    enable = true
-    # Disqus shortname to use Disqus in posts
-    shortname = "devopscloudjunction"
+
         
 copyRight = "Made with ❤ in Canada. Copyright (c) 2024 DevOpsCloudJunction"
 
@@ -124,5 +117,3 @@ rel  = "sitemap"
 [services]
   [services.googleAnalytics]
     ID = 'G-J1ZLS1SH1C'
-  [services.disqus]
-    shortname = 'devopscloudjunction'

@@ -2,16 +2,16 @@
 title: "Simplify Software Implementation"
 description: "The DevOps Methodology Merges Software Development and Operations"
 excerpt: "The DevOps Methodology Merges Software Development and Operations"
-date: 2023-03-27T09:19:42+01:00
-lastmod: 2020-11-04T09:19:42+01:00
+date: 2024-09-15T05:00:00+04:00
+lastmod: 2024-09-15T05:00:00+04:00
 draft: false
 weight: 45
 images: [devops.jpeg]
 categories: ["DevOps"]
 tags: ["CI/CD", "performance", "DevOps"]
-contributors: ["balasundaram"]
-pinned: true
-homepage: true
+contributors: ["achaggar007"]
+pinned: false
+homepage: false
 ---
 
 DevOps is often among the tools and tech stacks that organizations use to integrate development and operations teams continuously. However, the DevOps culture revolves around the practice and processes that improve the DevOps lifecycle.

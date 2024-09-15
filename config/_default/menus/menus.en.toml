@@ -4,17 +4,17 @@
   identifier = "prologue"
   url = "/posts/"
 
-[[docs]]
-  name = "CloudDocs"
-  weight = 10
-  identifier = "CloudDocs"
-  url = "/docs/CloudDocs/"
+#[[docs]]
+#  name = "CloudDocs"
+#  weight = 10
+#  identifier = "CloudDocs"
+#  url = "/docs/CloudDocs/"
 
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+#[[docs]]
+#  name = "Help"
+#  weight = 60
+#  identifier = "help"
+#  url = "/docs/help/"
 
 # [[docs]]
 #   name = "Lorem"

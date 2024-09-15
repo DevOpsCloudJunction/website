@@ -10,7 +10,7 @@ description = "Our website provides a comprehensive resource for implementing an
 # docsVersion = "0.3"
 
 ## Open Graph
-#images = ["doks.png"]
+images = ["logo-doks1.png"]
 ogLocale = "en_US"
 domainTLD = "devopscloudjunction.com"
 titleHome = "Empowering Innovation Through DevOps, Cloud Native, AI, and Emerging Technologies!"

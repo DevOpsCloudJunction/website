@@ -21,7 +21,6 @@ DevOps is more than just a set of tools and tech stacks; it's a culture that int
 
 While tools like servers, software, platforms, and applications facilitate DevOps solutions, they are secondary to the underlying principles driving the approach. As DevOps evolves, it's crucial that the technologies within the DevOps toolchain adapt to new developments and trends to stay competitive.
 
-![DevOps Image](assets/images/devops-image-01.jpeg)
 
 ## Planning
 

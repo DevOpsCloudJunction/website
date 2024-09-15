@@ -1,7 +1,7 @@
 ---
 title: "Say hello to DevOpsCloudJunction 👋"
 description: "Introducing to DevOpsCloudJunction."
-excerpt: "Introducing DevOpsCloudJunction, Connect, learn, and thrive in Cloud, DevOps, and Kubernetes!"
+excerpt: "Introducing DevOpsCloudJunction, Empowering Innovation Through DevOps, Cloud Native, AI, and Emerging Technologies!"
 date: 2024-09-15T00:00:00+04:00
 lastmod: 2024-09-15T00:00:00+04:00
 draft: false
@@ -14,4 +14,4 @@ pinned: true
 homepage: true
 ---
 
-Introducing DevOpsCloudJunction, Connect, learn, and thrive in Cloud, DevOps, and Kubernetes!"
+Introducing DevOpsCloudJunction, Empowering Innovation Through DevOps, Cloud Native, AI, and Emerging Technologies!"

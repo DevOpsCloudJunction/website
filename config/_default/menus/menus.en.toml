@@ -1,60 +1,47 @@
-[[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/posts/"
+#[[docs]]
+#  name = "Prologue"
+#  weight = 10
+#  identifier = "prologue"
+ # url = "/posts/"
 
 #[[docs]]
-#  name = "CloudDocs"
-#  weight = 10
-#  identifier = "CloudDocs"
-#  url = "/docs/CloudDocs/"
+ # name = "CloudDocs"
+ # weight = 10
+ # identifier = "CloudDocs"
+ # url = "/docs/CloudDocs/"
 
 #[[docs]]
-#  name = "Help"
-#  weight = 60
-#  identifier = "help"
-#  url = "/docs/help/"
+# name = "Help"
+ # weight = 60
+ # identifier = "help"
+ # url = "/docs/help/"
 
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
-
-[[guide]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
-
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
+#[[tutorial]]
+ # name = "Lorem"
+ # weight = 10
+ # identifier = "lorem"
+ # url = "/tutorial/lorem/"
 
 #[[main]]
-#  name = "Docs"
-#  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
-#  weight = 10
+ #name = "Docs"
+ # url = "/docs/prologue/introduction/"
+ # url = "/docs/1.0/prologue/introduction/"
+ # weight = 10
 
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
-
-#[[main]]
-#  name = "Blog"
-#  url = "/posts/"
-#  weight = 20
-
+ #[[main]]
+  # name = "Events"
+  # url = "/events/lorem/ipsum/"
+  #weight = 15
 
 #[[main]]
-#  name = "cicd"
-#  weight = 40
-#  identifier = "CloudDocs"
+ #name = "Blog"
+ #url = "/posts/"
+ #weight = 20
+
+#[[main]]
+# name = "cicd"
+# weight = 40
+# identifier = "CloudDocs"
 #  url = "/docs/CloudDocs/Introduction/"
 #  parent = "Documentation"
 

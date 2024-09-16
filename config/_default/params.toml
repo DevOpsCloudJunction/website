@@ -3,7 +3,7 @@
 ## Homepage
 title = "DevOps Cloud Junction"
 titleSeparator = "-"
-titleAddition = "Empowering Innovation Through DevOps, Cloud Native, AI, and Emerging Technologies!"
+titleAddition = "Explore Learning!"
 description = "Our website provides a comprehensive resource for implementing and managing a DevOps culture in your organization. We offer guides, tutorials, and case studies on the latest tools, technologies, and best practices for DevOps, including continuous integration and deployment, containerization, and automated testing"
 
 ## Documentation
@@ -13,7 +13,7 @@ description = "Our website provides a comprehensive resource for implementing an
 images = ["logo-doks1.png"]
 ogLocale = "en_US"
 domainTLD = "devopscloudjunction.com"
-titleHome = "Empowering Innovation Through DevOps, Cloud Native, AI, and Emerging Technologies!"
+titleHome = "Explore Learning!"
 
 ## Twitter Cards
 twitterSite = "@devopscloudjunction"
@@ -52,7 +52,7 @@ landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 smallLimit = "300"
-
+ 
 # Images
 imageResponsive = true
 imageConvertTo = "webp"

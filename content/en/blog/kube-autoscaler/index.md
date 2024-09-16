@@ -12,6 +12,7 @@ tags: ["Kubernetes", "scalability", "performance"]
 contributors: ["achaggar007"]
 pinned: false
 homepage: false
+comments: true
 ---
 
 # Autoscaling Pods in Kubernetes: A Comprehensive Guide

@@ -117,3 +117,5 @@ rel  = "sitemap"
 [services]
   [services.googleAnalytics]
     ID = 'G-J1ZLS1SH1C'
+[params]
+disqusShortname = "DevOpsCloudJunction"

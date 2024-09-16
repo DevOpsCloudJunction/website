@@ -12,6 +12,7 @@ tags: ["CI/CD", "performance", "DevOps"]
 contributors: ["achaggar007"]
 pinned: false
 homepage: false
+comments: true
 ---
 
 

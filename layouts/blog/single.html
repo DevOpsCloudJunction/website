@@ -59,10 +59,7 @@
 {{ if .Params.comments }}
 <div id="disqus_thread"></div>
 <script>
-    var disqus_config = function () {
-        this.page.url = '{{ .Permalink }}';
-        this.page.identifier = '{{ .Permalink }}';
-    };
+   
     (function() { 
         var d = document, s = d.createElement('script');
         s.src = 'https://devopscloudjunction-1.disqus.com/embed.js';

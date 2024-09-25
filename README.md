@@ -54,7 +54,7 @@ git checkout -b sample-blog
 ```
 2. Navigate to content/en/blog and create a directory for your blog. for example, 'test-blog'
 
-3. Copy sample index.md file from content/en/blog/say-hello-to-devopscloudjunction directory and dcj.jpeg image inside your created directory 'test-blog'
+3. Copy sample index.md file from content/en/blog/say-hello-to-devopscloudjunction directory and sample image dcj.jpeg (images/dcj.jpeg) inside your created directory 'test-blog'
 
 or you can use below command to create a new blog dir and index.md
 

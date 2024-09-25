@@ -56,6 +56,12 @@ git checkout -b sample-blog
 
 3. Copy sample index.md file from content/en/blog/say-hello-to-devopscloudjunction directory and dcj.jpeg image inside your created directory 'test-blog'
 
+or you can use below command to create a new blog 
+
+```bash 
+hugo new blog my-test-blog
+```
+
 4. Edit the index.md to add your title, description, images or tags and so on. 
 
 Note: Image is must add, if you have a relevant image, copy in the same directory or use the default dcj.jpeg image in the images field
@@ -67,6 +73,8 @@ Tip: You can also bash or yaml blocks depending on requirements.
 example checkout the existing index.md in (content/en/blog/kube-autoscaler/index.md)
 
 6. Once you have complete the blog, run hugo server to start the local copy of the website and test the changes on (http://localhost:1313), the blog should appear along with other blogs inside the (https://devopscloudjunction.com/blog/) upon clicking 'Get Started' on homepage
+
+To build your site, cd into your project directory (where) and run
 
 ```bash 
 hugo server

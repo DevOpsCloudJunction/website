@@ -10,8 +10,8 @@ images: [autoscaling.jpg]
 categories: ["Kubernetes"]
 tags: ["Kubernetes", "scalability", "performance"]
 contributors: ["achaggar007"]
-pinned: false
-homepage: false
+pinned: true
+homepage: true
 comments: true
 ---
 

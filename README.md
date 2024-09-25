@@ -61,7 +61,10 @@ git checkout -b sample-blog
 Note: Image is must add, if you have a relevant image, copy in the same directory or use the default dcj.jpeg image in the images field
 
 5. Start your content writing in the index.md using markdown syntax, you can refer to this link for tips on markdown (https://www.markdownguide.org/cheat-sheet/)
-you can also bash or yaml blocks depending on requirements. (https://www.thecodebuzz.com/highlight-bash-shell-code-in-markdown-readme-md-wiki-files/) also checkout the existing blog index.md in (content/en/blog/kube-autoscaler/index.md)
+
+Tip: You can also bash or yaml blocks depending on requirements.
+(https://www.thecodebuzz.com/highlight-bash-shell-code-in-markdown-readme-md-wiki-files/) 
+example checkout the existing index.md in (content/en/blog/kube-autoscaler/index.md)
 
 6. Once you have complete the blog, run hugo server to start the local copy of the website and test the changes on (http://localhost:1313), the blog should appear along with other blogs inside the (https://devopscloudjunction.com/blog/) upon clicking 'Get Started' on homepage
 

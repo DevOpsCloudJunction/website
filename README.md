@@ -47,12 +47,23 @@ hugo server
 
 ### Steps to make blog addition 
 
-1. Create a new branch out of 'main' branch using 'git checkout -b sample-blog' and work in that branch
+1. Create a new branch out of 'main' branch using below git command and work in that branch
+
+```bash 
+git checkout -b sample-blog
+```
 2. Navigate to content/en/blog and create a directory for your blog. for example, 'test-blog'
+
 3. Copy sample index.md file from content/en/blog/say-hello-to-devopscloudjunction directory and dcj.jpeg image inside your created directory 'test-blog'
+
 4. Edit the index.md to add your title, description, images or tags and so on. 
+
 Note: Image is must add, if you have a relevant image, copy in the same directory or use the default dcj.jpeg image in the images field
+
 5. Start your content writing in the index.md using markdown syntax, you can refer to this link for tips on markdown (https://www.markdownguide.org/cheat-sheet/)
+
 6. once you have complete the blog, run hugo server to start the local copy of the website and test the changes, the blog should appear along with other blogs inside the https://devopscloudjunction.com/blog/ upon clicking 'Get Started' on homepage
+
 7. If the changes looks good, commit the changes with meaningful commit message and initate a Pull request, add reviewers. you can also check the Deploy Preview version of website for your commited changes on Git Pull Request area
+
 8. Once changes are approved by reviewers, the branch will be merged to 'main'

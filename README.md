@@ -61,7 +61,7 @@ or you can use below command to create a new blog dir and index.md
 ```bash 
 hugo new blog/<blog-name>/index.yaml
 ```
-here the only variable should be <blog-name> for example - test-blog
+here the only variable should be <blog-name> something-meaningful or title and keep the markdown file as index.md
 
 4. Edit the index.md to add your title, description, images or tags and so on. 
 

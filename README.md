@@ -61,12 +61,11 @@ or you can use below command to create a new blog dir and index.md
 ```bash 
 hugo new blog/<blog-name>/index.yaml
 ```
-
-here the only variable should be <blog-name> for example - my-test-blog
+here the only variable should be <blog-name> for example - test-blog
 
 4. Edit the index.md to add your title, description, images or tags and so on. 
 
-Note: Image is must add, if you have a relevant image, copy in the same directory or use the default dcj.jpeg image in the images field
+Note: An image is required. If you find a relevant image, copy in the same directory or use the default dcj.jpeg image in the images field
 
 5. Start your content writing in the index.md using markdown syntax, you can refer to this link for tips on markdown (https://www.markdownguide.org/cheat-sheet/)
 

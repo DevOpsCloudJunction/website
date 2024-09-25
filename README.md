@@ -56,11 +56,13 @@ git checkout -b sample-blog
 
 3. Copy sample index.md file from content/en/blog/say-hello-to-devopscloudjunction directory and dcj.jpeg image inside your created directory 'test-blog'
 
-or you can use below command to create a new blog 
+or you can use below command to create a new blog dir and index.md
 
 ```bash 
-hugo new blog my-test-blog
+hugo new blog/<blog-name>/index.yaml
 ```
+
+here the only variable should be <blog-name> for example - my-test-blog
 
 4. Edit the index.md to add your title, description, images or tags and so on. 
 

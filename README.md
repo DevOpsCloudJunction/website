@@ -62,7 +62,29 @@ Note: Image is must add, if you have a relevant image, copy in the same director
 
 5. Start your content writing in the index.md using markdown syntax, you can refer to this link for tips on markdown (https://www.markdownguide.org/cheat-sheet/)
 
-6. once you have complete the blog, run hugo server to start the local copy of the website and test the changes, the blog should appear along with other blogs inside the https://devopscloudjunction.com/blog/ upon clicking 'Get Started' on homepage
+
+For bash block
+
+```bash
+    sample bash command ls -ltr
+```
+
+For Yaml files
+ ```yaml
+    apiVersion: autoscaling.k8s.io/v1
+    kind: VerticalPodAutoscaler
+    metadata:
+      name: <deployment-name>
+    spec:
+      targetRef:
+        apiVersion: "apps/v1"
+        kind:       Deployment
+        name:       <deployment-name>
+      updatePolicy:
+        updateMode: "Auto"
+```
+
+6. once you have complete the blog, run hugo server to start the local copy of the website and test the changes on (http://localhost:1313), the blog should appear along with other blogs inside the (https://devopscloudjunction.com/blog/) upon clicking 'Get Started' on homepage
 
 ```bash 
 hugo server

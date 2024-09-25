@@ -64,6 +64,10 @@ Note: Image is must add, if you have a relevant image, copy in the same director
 
 6. once you have complete the blog, run hugo server to start the local copy of the website and test the changes, the blog should appear along with other blogs inside the https://devopscloudjunction.com/blog/ upon clicking 'Get Started' on homepage
 
+```bash 
+hugo server
+```
+
 7. If the changes looks good, commit the changes with meaningful commit message and initate a Pull request, add reviewers. you can also check the Deploy Preview version of website for your commited changes on Git Pull Request area
 
 8. Once changes are approved by reviewers, the branch will be merged to 'main'

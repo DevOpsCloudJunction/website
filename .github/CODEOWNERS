@@ -1,0 +1,12 @@
+# This is a comment
+# Each line is a file pattern followed by one or more owners
+
+# The root directory
+/ @achaggar007 @satrox28
+
+# Specific files
+README.md @achaggar007 @satrox28
+netlify.toml @achaggar007 @satrox28
+
+# All JavaScript files in the src directory
+/src/**/*.js @achaggar007 @satrox28

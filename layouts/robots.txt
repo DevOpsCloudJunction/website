@@ -2,6 +2,10 @@ User-agent: *
 {{ if eq (hugo.Environment) "production" -}}
 Allow: /
 {{ else -}}
-Disallow: /
+Disallow: https://devopscloudjunction.com/categories/devops/
+Disallow: https://devopscloudjunction.com/docs/prologue/
+Disallow: https://devopscloudjunction.com/docs/
+Disallow: https://devopscloudjunction.com/docs/help/
+
 {{ end }}
 Sitemap: {{ "sitemap.xml" | absURL -}}

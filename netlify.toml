@@ -56,7 +56,7 @@
     Content-Security-Policy = """
     base-uri 'self';
     default-src 'self';
-    script-src 'self' 'unsafe-inline' 'unsafe-eval' devopscloudjunction-1.disqus.com *.disqus.com *.disquscdn.com *.disqus.net;
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' devopscloudjunction-1.disqus.com *.disqus.com *.disquscdn.com *.disqus.net www.googletagmanager.com;
     connect-src 'self' www.google-analytics.com disqus.com disquscdn.com disqus.net;
     img-src 'self' data: disqus.com disquscdn.com;
     style-src 'self' 'unsafe-inline' disquscdn.com;

@@ -1,5 +1,4 @@
 User-agent: *
-Allow: /
 Disallow: https://devopscloudjunction.com/docs/
 Disallow: https://devopscloudjunction.com/categories/devops/
 Disallow: https://devopscloudjunction.com/tags/

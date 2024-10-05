@@ -5,7 +5,7 @@ excerpt: ""
 date: 2024-10-05T08:58:29-04:00
 lastmod: 2024-10-05T08:58:29-04:00
 draft: false
-weight: 50
+weight: 90
 images: [branch-img.png]
 categories: []
 tags: ["DevOps", "Git", "Collaborative Development"]

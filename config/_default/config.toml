@@ -19,7 +19,7 @@ copyRight = "Made with ❤ in Canada. Copyright (c) 2024 DevOpsCloudJunction"
 
 # add redirects/headers
 [outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS", "RobotsTXT"]
 section = ["HTML", "RSS", "SITEMAP"]
 
 # remove .{ext} from text/netlify

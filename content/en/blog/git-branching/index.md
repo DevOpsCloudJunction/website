@@ -1,13 +1,13 @@
 ---
 title: "Git Branching Overview"
 description: "Git Branching"
-excerpt: ""
+excerpt: "Explore various strategies and best practices for managing branches in Git"
 date: 2024-10-05T08:58:29-04:00
 lastmod: 2024-10-05T08:58:29-04:00
 draft: false
-weight: 50
+weight: 44
 images: [branch-img.png]
-categories: []
+categories: ["Devops", "Git"]
 tags: ["DevOps", "Git", "Collaborative Development"]
 contributors: [achaggar007]
 pinned: false

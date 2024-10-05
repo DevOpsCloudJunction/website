@@ -7,7 +7,7 @@ lastmod: 2024-10-05T08:58:29-04:00
 draft: false
 weight: 90
 images: [branch-img.png]
-categories: []
+categories: [Git]
 tags: ["DevOps", "Git", "Collaborative Development"]
 contributors: [achaggar007]
 pinned: false

@@ -91,12 +91,45 @@ To merge a branch into the current branch, use:
 git merge <branch-name>
 ```
 
-#### Deleting a Branch
+#### Deleting a Branch(es)
 
-To delete a branch that is no longer needed, use:
+##### On local env
 ```sh
+#To delete a branch that is no longer needed, use:
 git branch -d <branch-name>
+
+#To delete the unmerged branch, use:
+git branch -D <branch-name>
+
+#Bulk delete merged branches on local at once:
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+
+#Bulk delete un-merged branches on local at once:
+git branch --no-merged | egrep -v "(^\*|master|dev)" | xargs git branch -D
+
+Note: Please review and use the unmerged bulk delete carefully as it will remove all the unmerged branches and their changes.
 ```
+
+##### On Remote
+```sh
+# Dry run to list remote branches would be pruned
+git remote prune <remote> --dry-run
+
+# Delete the listed remote branches would be pruned
+git remote prune <remote> 
+
+# Delete a specific branch on the remote
+git push <remote> --delete <branch>
+
+# Bulk delete merged branches on the remote
+git branch -r --merged | egrep -v "(^\*|master|dev)" | sed 's/origin\///' | xargs -n 1 git push origin --delete
+
+# Bulk delete unmerged branches on the remote
+git branch -r --no-merged | egrep -v "(^\*|master|dev)" | sed 's/origin\///' | xargs -n 1 git push origin --delete
+
+Caution: Use with extereme care, it will remove branches remotely for unmerged changes
+```
+Caution: Use with extereme care, it will remove branches remotely for unmerged changes
 
 #### Viewing Branches
 

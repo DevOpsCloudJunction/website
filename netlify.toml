@@ -20,11 +20,7 @@
 
 [context.next]
   command = "npm run build"
-  environment = { HUGO_VERSION = "0.126.2" }
-
-[context.next.environment]
-  HUGO_ENV = "next"
-  HUGO_VERSION = "0.126.2"
+  environment = { HUGO_ENV = "next", HUGO_VERSION = "0.126.2" }
 
 [context.production.environment]
   HUGO_VERSION = "0.126.2"

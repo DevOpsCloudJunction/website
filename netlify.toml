@@ -12,13 +12,15 @@
 
 [context.deploy-preview]
   command = "npm run build -- -b $DEPLOY_PRIME_URL"
-  HUGO_VERSION = "0.126.2"
+  environment = { HUGO_VERSION = "0.126.2" }
 
 [context.branch-deploy]
   command = "npm run build -- -b $DEPLOY_PRIME_URL"
+  environment = { HUGO_VERSION = "0.126.2" }
 
 [context.next]
   command = "npm run build"
+  environment = { HUGO_VERSION = "0.126.2" }
 
 [context.next.environment]
   HUGO_ENV = "next"

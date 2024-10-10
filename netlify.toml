@@ -12,6 +12,7 @@
 
 [context.deploy-preview]
   command = "npm run build -- -b $DEPLOY_PRIME_URL"
+  HUGO_VERSION = "0.126.2"
 
 [context.branch-deploy]
   command = "npm run build -- -b $DEPLOY_PRIME_URL"

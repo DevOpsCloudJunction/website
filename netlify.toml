@@ -21,6 +21,10 @@
 
 [context.next.environment]
   HUGO_ENV = "next"
+  HUGO_VERSION = "0.126.2"
+
+[context.production.environment]
+  HUGO_VERSION = "0.126.2"
 
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"

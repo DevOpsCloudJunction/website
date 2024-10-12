@@ -1,7 +1,8 @@
 User-agent: *
-{{ if eq (hugo.Environment) "production" -}}
-Allow: /
-{{ else -}}
-Disallow: /
-{{ end }}
-Sitemap: {{ "sitemap.xml" | absURL -}}
+Disallow: /docs/
+Disallow: /categories/devops/
+Disallow: /tags/
+Disallow: /authors/
+Disallow: /docs/prologue/
+Disallow: /docs/epilogue/
+Disallow: /docs/help/

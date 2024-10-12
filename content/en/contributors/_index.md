@@ -7,4 +7,4 @@ draft: false
 images: []
 ---
 
-The DOCJ contributors.
+The DCJ contributors.

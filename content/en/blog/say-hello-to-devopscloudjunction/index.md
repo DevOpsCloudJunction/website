@@ -1,18 +1,17 @@
 ---
 title: "Say hello to DevOpsCloudJunction 👋"
 description: "Introducing to DevOpsCloudJunction."
-excerpt: "Introducing DevOpsCloudJunction, Connect, learn, and thrive in Cloud, DevOps, and Kubernetes!"
-author: sathish-kumar
-date: 2023-04-02T09:19:42+01:00
-lastmod: 2023-04-02T09:19:42+01:00
+excerpt: "Introducing DevOpsCloudJunction, Empowering Innovation Through DevOps, Cloud Native, AI, and Emerging Technologies!"
+date: 2024-09-15T00:00:00+04:00
+lastmod: 2024-09-15T00:00:00+04:00
 draft: false
-weight: 50
+weight: 90
 images: [hello.jpg]
 categories: ["News"]
 tags: ["cloud", "devops", "devopscloud", "kubernetes"]
-contributors: ["sathish-kumar-venkatesan"]
-pinned: false
-homepage: false
+contributors: ["satrox28"]
+pinned: true
+homepage: true
 ---
 
-Introducing DevOpsCloudJunction, Connect, learn, and thrive in Cloud, DevOps, and Kubernetes!"
+Introducing DevOpsCloudJunction, Empowering Innovation Through DevOps, Cloud Native, AI, and Emerging Technologies!"

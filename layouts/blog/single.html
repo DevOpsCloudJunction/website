@@ -25,7 +25,7 @@
   </div>
 </div>
 </article>
-
+{{ template "_internal/disqus.html" . }}
 {{ $related := .Site.RegularPages.Related . | first 3 -}}
 {{ with $related -}}
 <div class="related-posts">
@@ -50,10 +50,34 @@
     </div>
   </div>
   {{ end -}}
+  
 </div>
 </div>
+
 {{ end -}}
 
+{{ if .Params.comments }}
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = '{{ .Permalink }}';
+        this.page.identifier = '{{ .Permalink }}';
+    };
+    (function() { 
+        var d = document, s = d.createElement('script');
+        s.src = 'https://devopscloudjunction-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+
+
 {{ end }}
+
+{{ end }}
+
+
+
 
 

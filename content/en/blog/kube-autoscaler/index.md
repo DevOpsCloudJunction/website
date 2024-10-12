@@ -2,16 +2,17 @@
 title: "Autoscaling Pods in Kubernetes: A Comprehensive Guide"
 description: ""
 excerpt: "Autoscaling Pods in Kubernetes: A Comprehensive Guide"
-date: 2024-08-12T09:19:42+01:00
-lastmod: 2024-11-04T09:19:42+01:00
+date: 2024-09-15T04:19:42+04:00
+lastmod: 2024-09-15T04:19:42+04:00
 draft: false
 weight: 60
 images: [autoscaling.jpg]
 categories: ["Kubernetes"]
 tags: ["Kubernetes", "scalability", "performance"]
-contributors: ["amrit-singh-chaggar"]
-pinned: true
-homepage: true
+contributors: ["achaggar007"]
+pinned: false
+homepage: false
+comments: true
 ---
 
 # Autoscaling Pods in Kubernetes: A Comprehensive Guide

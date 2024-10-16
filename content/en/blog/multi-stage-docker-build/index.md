@@ -1,13 +1,13 @@
 ---
 title: "Multi Stage Docker Build 🐳 "
-description: "Hsi"
+description: "Multi-stage Docker builds allow you to optimize image size by using multiple stages in a single Dockerfile, copying only the necessary files from each stage."
 excerpt: "Optimize Docker images with multi-stage builds to reduce size,"
-date: 2024-09-26T21:22:41+00:00 
-lastmod: 2024-09-26T21:22:41+00:00 
+date: 2024-10-22T15:51:05
+lastmod: 2024-10-22T15:51:05 
 draft: false
 weight: 90
 images: [multi-stage-image.jpg]
-categories: ["News"]
+categories: ["Docker"]
 tags: ["cloud", "devops", "devopscloud", "kubernetes","docker"]
 contributors: ["kalyankumar v"]
 pinned: true
@@ -60,9 +60,9 @@ CMD ["node", "dist/main"]
 ```
 This is a normal Dockerfile., The below image shows the size of the image using normal build.
 
-<!-- ![Image](large_size.jpg) -->
+<img src="./large_size.jpg" alt="noraml docker build">
 
-
+<p style="margin-bottom: 2em;"></p>
 
 Next, we’ll create a Dockerfile to build and run our application using multi-stage builds.
 
@@ -77,7 +77,7 @@ WORKDIR /app
 COPY package.json ./
 
 # Install dependencies using npm
-RUN npm i
+RUN npm install
 
 # Copy the rest of the application code to the working directory
 COPY . .
@@ -105,7 +105,8 @@ CMD ["node", "dist/main"]
 
 The below image, shows the docker image detail, which we build from multi-stage-build docker file. You can clearly able to see the size difference.
 
-<!-- ![Image](large_size.jpg) -->
+
+<img src="./small_image.jpg" alt="Reduced_size-image">
 
 
 

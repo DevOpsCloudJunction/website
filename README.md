@@ -20,10 +20,12 @@ Make sure you have the following installed:
 
 ---
 
+### Fork the repository
+Go to the [repository](https://github.com/devopscloudjunction/website) and click the "Fork" button on the `top right` to create a copy in your GitHub account.
+
 ### Clone the Repository
 
-First, clone the repository and navigate into the project directory:
-
+After forking, use the following command to clone your forked repository:
 ```bash
 git clone https://github.com/devopscloudjunction/website.git website && cd website
 ```

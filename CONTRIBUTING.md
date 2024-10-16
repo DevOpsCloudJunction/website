@@ -66,3 +66,6 @@ When raising a pull request, ensure you fill out the PR template fields. Some fi
 
 - If you have an idea or would like to write a [blog](https://devopscloudjunction.com/blog/), you're always welcome! Feel free to contribute.
 - Please follow the [Blog Contribution Guide](https://github.com/devopscloudjunction/website?tab=readme-ov-file#blog-contribution-guide) for more details.
+
+## Note
+- Always submit the PR from you [fork](https://github.com/DevOpsCloudJunction/website/blob/main/README.md#Fork-the-repository) because you don't have access to make changes to Main Repo. 

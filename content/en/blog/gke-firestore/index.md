@@ -2,15 +2,16 @@
 title: "Guide to have GKE based application use Firestore as database"
 description: ""
 excerpt: "Guide to have GKE based application use Firestore as database"
-date: 2024-08-23T09:19:42+01:00
-lastmod: 2024-08-23T09:19:42+01:00
+date: 2024-10-16T09:19:42+01:00
+lastmod: 2024-10-16T09:19:42+01:00
 draft: false
-images: []
+images: ['image.png']
 categories: ["Kubernetes", "Firestore", "Workload-identity"]
 tags: ["Kubernetes", "Firestore", "Workload-identity"]
 contributors: ["balabtech"]
 pinned: true
 homepage: true
+weight: 42
 ---
 
 # Guide to have GKE based application use Firestore as database

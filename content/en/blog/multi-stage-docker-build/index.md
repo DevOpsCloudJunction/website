@@ -7,7 +7,7 @@ lastmod: 2024-09-26T21:22:41+00:00
 draft: false
 weight: 90
 images: [multi-stage-image.jpg]
-categories: ["News"]
+categories: ["Docker"]
 tags: ["cloud", "devops", "devopscloud", "kubernetes","docker"]
 contributors: ["kalyankumar v"]
 pinned: true

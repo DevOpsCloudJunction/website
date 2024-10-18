@@ -1,0 +1,107 @@
+{{ define "main" }}
+<h2 style="text-align: center;">Registration Form</h2>
+<div class="registration-form">
+    <form id="registration-form" action="https://docs.google.com/forms/d/e/1FAIpQLSeNU2KgItV8eECTQBo1rAsQ4q_eeL-sxlFtUrrZiI5JdKGJkQ/formResponse" method="POST" target="_self">
+        <div class="form-group">
+            <label for="name">Name*</label>
+            <input type="text" name="entry.994509217" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email*</label>
+            <input type="email" name="entry.1257592185" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="company">Company*</label>
+            <input type="company" name="entry.628439952" id="company" required>
+        </div>
+        <div class="form-group">
+            <label for="designation">Designation*</label>
+            <input type="designation" name="entry.1640169415" id="designation" required>
+        </div>
+        <div class="form-group">
+            <label for="mobile">Mobile Number*</label>
+            <div style="display: flex; align-items: center;">
+                <select name="country-code" id="country-code" style="margin-right: 10px; width: 60px;">
+                    <option value="+1">+1 (Canada)</option>
+                    <!-- You can add other country codes if needed -->
+                </select>
+                <input type="tel" name="entry.1079070032" id="mobile" placeholder="Mobile Number" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="join-method">Are you willing to join online or on-site?*</label>
+            <select name="entry.2002529587" id="join-method" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="Online">Online</option>
+                <option value="On-site">On-Site</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="linkedin">LinkedIn URL</label>
+            <input type="linkedin" name="entry.1009399233" id="linkedin">
+        </div>
+        <div class="form-group">
+            <label for="topics">Topics of Interest</label>
+            <textarea name="entry.140769107" id="topics" rows="4" required></textarea>
+        </div>
+        <div style="margin-bottom: 10px;">
+            <label for="subscribe-checkbox">
+                <label>Subscribe to Newsletter</label><br>
+                <input type="radio" id="subscribe-yes" name="entry.486631497" value="Yes"> Yes
+                <input type="radio" id="subscribe-no" name="entry.486631497" value="No"> No
+            </label>
+        </div>
+        <div class="form-group">
+            <button type="submit">Register</button>
+        </div>
+        <p id="success-message" style="display: none; color: green;">Registration successful!</p>
+    </form>
+</div>
+
+<script>
+    document.getElementById('registration-form').addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevent default form submission
+    
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const mobile = document.getElementById('mobile').value.trim();
+        const company = document.getElementById('company').value.trim();
+        const designation = document.getElementById('designation').value.trim();
+        const topics = document.getElementById('topics').value.trim();
+        
+        
+        // Validate fields for empty or whitespace-only values
+        if (!name || !email || !mobile || !company || !designation) {
+            alert('Please fill out all fields.');
+            return;
+        }
+
+        // Further validate phone number format using the pattern from the input
+         // Remove all non-digit characters for validation
+        const digitsOnly = mobile.replace(/\D/g, '');
+
+        // Check if the mobile number contains only digits and is the correct length
+        if (digitsOnly.length < 10 || digitsOnly.length > 15) {
+            alert('Please enter a valid phone number with 10 to 15 digits.');
+            return;
+        }
+        // Prepare form data
+        const formData = new FormData(this);
+    
+        // Submit form data using fetch API
+        fetch(this.action, {
+            method: 'POST',
+            body: formData,
+            mode: 'no-cors', // This tells the browser to ignore CORS policy
+        })
+        .then(() => {
+            // Clear form fields
+            document.getElementById('registration-form').reset(); // Resets all form fields
+            document.getElementById('success-message').style.display = 'block'; // Show success message
+        })
+        .catch((error) => {
+            console.error('Error!', error.message);
+        });
+    });
+    </script>
+{{ end }}

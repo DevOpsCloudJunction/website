@@ -55,6 +55,13 @@
             border: 1px solid #ccc; /* Maintain border for consistency */
             border-radius: 4px; /* Keep border radius */
         }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
     }
 
     input[type="checkbox"] {

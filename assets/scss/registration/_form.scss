@@ -90,4 +90,25 @@
         font-weight: bold;
         margin-top: 10px;
     }
+
+   
 }
+#successMessage {
+    display: none; /* Initially hidden */
+    text-align: center;
+    font-size: 24px;
+    color: green;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  /* Checkmark styling */
+  .checkmark {
+    font-size: 48px;
+    color: green;
+    display: block;
+  }
+  /* Centering the form */
+  #formContainer {
+    text-align: center;
+    margin-top: 50px;
+  }

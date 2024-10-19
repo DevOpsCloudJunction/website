@@ -14,12 +14,6 @@
             margin-bottom: 8px;
         }
 
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 24px;
-        }
-    
         input {
             width: 100%;
             padding: 10px;
@@ -62,14 +56,16 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
+        label{
+            color: #1d2d35;
+        }
     }
 
     input[type="checkbox"] {
         margin-right: 8px;
         margin-bottom: 15px;
     }
-
-    
 
     button {
         width: 100%;

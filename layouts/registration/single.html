@@ -1,6 +1,12 @@
 {{ define "main" }}
-<h2 style="text-align: center;">Registration Form</h2>
-<div class="registration-form">
+
+<div id="successMessage">
+    <span class="checkmark">✔</span>
+    Registration successful!
+</div>
+
+<h2 id="form-title" style="text-align: center;">Registration Form</h2>
+<div class="registration-form" id="register">
     <form id="registration-form" action="https://docs.google.com/forms/d/e/1FAIpQLSeNU2KgItV8eECTQBo1rAsQ4q_eeL-sxlFtUrrZiI5JdKGJkQ/formResponse" method="POST" target="_self">
         <div class="form-group">
             <label for="name">Name*</label>
@@ -32,8 +38,8 @@
             <label for="join-method">Are you willing to join online or on-site?*</label>
             <select name="entry.2002529587" id="join-method" required>
                 <option value="" disabled selected>Select an option</option>
-                <option value="Online">Online</option>
-                <option value="On-site">On-Site</option>
+                <option value="Online">Virtual</option>
+                <option value="On-site">In Person</option>
             </select>
         </div>
         <div class="form-group">
@@ -45,23 +51,20 @@
             <textarea name="entry.140769107" id="topics" rows="4" required></textarea>
         </div>
         <div style="margin-bottom: 10px;">
-            <label for="subscribe-checkbox">
-                <label>Subscribe to Newsletter</label><br>
-                <input type="radio" id="subscribe-yes" name="entry.486631497" value="Yes"> Yes
-                <input type="radio" id="subscribe-no" name="entry.486631497" value="No"> No
-            </label>
+                <label>Willing to present next time</label><br>
+                <input type="radio" id="present-yes" name="entry.814974891" value="Yes" required> Yes
+                <input type="radio" id="present-no" name="entry.814974891" value="No"> No
         </div>
         <div class="form-group">
             <button type="submit">Register</button>
         </div>
-        <p id="success-message" style="display: none; color: green;">Registration successful!</p>
+        <div id="error-message" style="display:none; color: rgb(121, 25, 25);">There was an error submitting your form. Please try again.</div>
     </form>
 </div>
 
 <script>
-    document.getElementById('registration-form').addEventListener('submit', function(e) {
+    document.getElementById('registration-form').addEventListener('submit', async function(e) {
         e.preventDefault(); // Prevent default form submission
-    
         const name = document.getElementById('name').value.trim();
         const email = document.getElementById('email').value.trim();
         const mobile = document.getElementById('mobile').value.trim();
@@ -85,23 +88,33 @@
             alert('Please enter a valid phone number with 10 to 15 digits.');
             return;
         }
-        // Prepare form data
-        const formData = new FormData(this);
-    
-        // Submit form data using fetch API
-        fetch(this.action, {
+        // Get form data
+        const formData = new FormData(event.target);
+        
+        try {
+            // Send form data using fetch
+            const response = await fetch(event.target.action, {
             method: 'POST',
             body: formData,
-            mode: 'no-cors', // This tells the browser to ignore CORS policy
-        })
-        .then(() => {
-            // Clear form fields
-            document.getElementById('registration-form').reset(); // Resets all form fields
-            document.getElementById('success-message').style.display = 'block'; // Show success message
-        })
-        .catch((error) => {
-            console.error('Error!', error.message);
-        });
+            mode: 'no-cors' // Use 'no-cors' to avoid CORS issues with Google Forms
+            });
+            
+            // Since 'no-cors' mode is used, the response status will always be 0
+            // Assume success if no exception is thrown
+            document.getElementById('register').style.display = 'none';
+            document.getElementById('form-title').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+        } catch (error) {
+            // Handle errors (like network issues)
+            console.error('Error submitting form:', error);
+            document.getElementById('error-message').style.display = 'block';
+            document.getElementById('success-message').style.display = 'none';
+        }
+
+        return false;
+        
+        // Prepare form data
+       
     });
     </script>
 {{ end }}

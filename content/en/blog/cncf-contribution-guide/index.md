@@ -6,7 +6,7 @@ excerpt: "Learn how to contribute to open source projects and embrace the DevOps
 date: 2024-09-30T09:56:11+05:30  
 lastmod: 2024-09-30T09:56:11+05:30  
 draft: false  
-weight: 45  
+weight: 100  
 images: [cover.png]  
 categories: [Open Source]  
 tags: ["Contribution", "Open Source", "Community"]  

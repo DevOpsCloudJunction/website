@@ -105,6 +105,7 @@ Edit the `index.md` file and update the fields:
 - **Title**: Add your blog title.
 - **Description**: Provide a brief summary of your blog.
 - **Image**: Include an image. Use either a relevant image or the default `dcj.jpeg` located at `images/dcj.jpeg`.
+- **Weight**: Keep the weight as value 100 for your blogs, the redordering will be based on the date
 
 For **Markdown tips**, check out the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
 

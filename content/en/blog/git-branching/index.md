@@ -5,7 +5,7 @@ excerpt: "Explore various strategies and best practices for managing branches in
 date: 2024-10-05T08:58:29-04:00
 lastmod: 2024-10-05T08:58:29-04:00
 draft: false
-weight: 44
+weight: 100
 images: [branch-img.png]
 categories: ["Devops", "Git"]
 tags: ["DevOps", "Git", "Collaborative Development"]

@@ -5,7 +5,7 @@ excerpt: "The DevOps Methodology Merges Software Development and Operations"
 date: 2024-09-15T05:00:00+04:00
 lastmod: 2024-09-15T05:00:00+04:00
 draft: false
-weight: 45
+weight: 100
 images: [devops.jpeg]
 categories: ["DevOps"]
 tags: ["CI/CD", "performance", "DevOps"]

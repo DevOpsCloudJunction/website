@@ -2,10 +2,10 @@
 title: "Kubernetes Basics"
 description: "Introduction to Kubernetes"
 excerpt: "Explore various strategies and best practices for managing branches in Git"
-date: 2024-10-16T12:06:50-04:00
-lastmod: 2024-10-16T12:06:50-04:00
+date: 2024-10-24T12:06:50-04:00
+lastmod: 2024-10-24T12:06:50-04:00
 draft: false
-weight: 43
+weight: 100
 images: [kubernetes_cloud.jpg]
 categories: ["Devops", "Kubernetes"]
 tags: ["Devops", "SRE","Kubernetes"]

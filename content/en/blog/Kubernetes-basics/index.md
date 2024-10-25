@@ -1,7 +1,7 @@
 ---
-title: "Kubernetes Basics"
+title: "Kubernetes 101: Pods, ReplicaSets, and Deployments"
 description: "Introduction to Kubernetes"
-excerpt: "Explore various strategies and best practices for managing branches in Git"
+excerpt: "Introductory guide to Kubernetes foundational components: Pod, Deployment and Replicaset"
 date: 2024-10-24T12:06:50-04:00
 lastmod: 2024-10-24T12:06:50-04:00
 draft: false

@@ -88,7 +88,7 @@ git checkout -b sample-blog
 
 ### Create Blog Directory
 
-Navigate to the `content/en/blog` directory and create a new folder for your blog. Use the following command to automate the process:
+Run the below command from `root` directory to get ready with your blog layout.
 
 ```bash
 hugo new blog/<blog-name>/index.md

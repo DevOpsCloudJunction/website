@@ -5,11 +5,11 @@ excerpt: "Optimize Docker images with multi-stage builds to reduce size,"
 date: 2024-10-22T15:51:05
 lastmod: 2024-10-22T15:51:05 
 draft: false
-weight: 90
+weight: 100
 images: [multi-stage-image.jpg]
 categories: ["Docker"]
 tags: ["cloud", "devops", "devopscloud", "kubernetes","docker"]
-contributors: ["kalyankumar v"]
+contributors: ["Kalyankumar Vinayakabaskaran"]
 pinned: true
 homepage: true
 ---

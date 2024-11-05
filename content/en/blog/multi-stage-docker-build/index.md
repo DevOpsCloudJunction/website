@@ -2,8 +2,8 @@
 title: "Multi Stage Docker Build 🐳 "
 description: "Multi-stage Docker builds allow you to optimize image size by using multiple stages in a single Dockerfile, copying only the necessary files from each stage."
 excerpt: "Optimize Docker images with multi-stage builds to reduce size,"
-date: 2024-10-22T15:51:05
-lastmod: 2024-10-22T15:51:05 
+date: 2024-11-04T15:51:05
+lastmod: 2024-11-04T15:51:05 
 draft: false
 weight: 100
 images: [multi-stage-image.jpg]

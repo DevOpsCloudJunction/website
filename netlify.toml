@@ -60,7 +60,7 @@
     connect-src 'self' www.google-analytics.com docs.google.com disqus.com *.disquscdn.com *.disqus.net *.disqus.com;
     img-src 'self' data: *.disqus.com *.disquscdn.com cdn.viglink.com;
     style-src 'self' 'unsafe-inline' *.disquscdn.com;
-    frame-src disqus.com *.disquscdn.com *.disqus.net app.netlify.com youtube.com;
+    frame-src disqus.com *.disquscdn.com *.disqus.net app.netlify.com www.youtube.com;
     """
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin"

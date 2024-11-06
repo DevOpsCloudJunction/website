@@ -2,8 +2,8 @@
 title: "Introduction to Generative AI and Retrieval-Augmented Generation (RAG)"
 description: "A comprehensive introduction to Generative AI and Retrieval-Augmented Generation (RAG), exploring their applications and real-time examples."
 excerpt: "Discover the world of Generative AI and RAG, and learn how these technologies transform content generation with real-world applications."
-date: 2024-10-30T11:08:36+05:30
-lastmod: 2024-10-30T11:08:36+05:30
+date: 2024-11-06T11:08:36+05:30
+lastmod: 2024-11-06T11:08:36+05:30
 draft: false
 weight: 100
 images: [ai.png]

@@ -4,6 +4,7 @@
 
 🌐 **[DevOpsCloudJunction.com](https://devopscloudjunction.com/)**
 
+[![DCO](https://github.com/DevOpsCloudJunction/website/actions/workflows/dco-check.yaml/badge.svg)](https://github.com/DevOpsCloudJunction/website/actions/workflows/dco-check.yaml)
 ---
 
 ## How to Contribute

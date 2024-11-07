@@ -118,4 +118,7 @@ rel  = "sitemap"
   [services.googleAnalytics]
     ID = 'G-J1ZLS1SH1C'
 [params]
-disqusShortname = "devopscloudjunction-1"
+  siteLogo = true
+  siteLogoLight = "favicon.svg"
+  siteLogoDark = "favicon.svg"
+  siteLogoWidth = 78

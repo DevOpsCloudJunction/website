@@ -121,4 +121,4 @@ rel  = "sitemap"
   siteLogo = true
   siteLogoLight = "favicon.svg"
   siteLogoDark = "favicon.svg"
-  siteLogoWidth = 78
+  siteLogoWidth = 73

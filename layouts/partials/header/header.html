@@ -18,8 +18,8 @@
       <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-md-nowrap" aria-label="Main navigation">
         <a class="navbar-brand p-0 me-auto" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
           {{ if .Site.Params.siteLogo }}
-            <img class="logo-light" src="{{ .Site.Params.siteLogoLight }}" width="{{ .Site.Params.siteLogoWidth }}">
-            <img class="logo-dark d-none" src="{{ .Site.Params.siteLogoDark }}" width="{{ .Site.Params.siteLogoWidth }}">
+            <img class="logo-light" src="{{ .Site.Params.siteLogoLight | absURL }}" width="{{ .Site.Params.siteLogoWidth }}">
+            <img class="logo-dark d-none" src="{{ .Site.Params.siteLogoDark | absURL }}" width="{{ .Site.Params.siteLogoWidth }}">
           {{ else }}
             {{ .Site.Params.Title }}
           {{ end }}

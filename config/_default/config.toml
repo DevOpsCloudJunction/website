@@ -119,6 +119,6 @@ rel  = "sitemap"
     ID = 'G-J1ZLS1SH1C'
 [params]
   siteLogo = true
-  siteLogoLight = "Logo.svg"
-  siteLogoDark = "Logo.svg"
+  siteLogoLight = "Logo-png.png"
+  siteLogoDark = "Logo-png.png"
   siteLogoWidth = 73

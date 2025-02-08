@@ -51,11 +51,11 @@
     "exec-bin": "^1.0.0",
     "flexsearch": "^0.7.21",
     "highlight.js": "^11.7.0",
-    "hugo-installer": "^4.0.1",
+    "hugo-installer": "^2.0.0",
     "instant.page": "^5.1",
     "katex": "^0.16",
     "lazysizes": "^5.3",
-    "markdownlint-cli2": "^0.4.0",
+    "markdownlint-cli2": "^0.17.2",
     "netlify-plugin-submit-sitemap": "^0.4.0",
     "node-fetch": "^3.3.1",
     "postcss": "^8.4",
@@ -70,6 +70,7 @@
   },
   "dependencies": {
     "@thulite/images": "^3.3.0",
-    "disqus-react": "^1.1.5"
+    "disqus-react": "^1.1.5",
+    "semver": "^7.5.2"
   }
 }

@@ -6,7 +6,7 @@ date: 2025-02-07T12:06:50-04:00
 lastmod: 2025-01-09T12:06:50-04:00
 draft: false
 weight: 100
-images: [k8s-arch.png]
+images: [k8s-arch.jpg]
 categories: ["Devops", "Kubernetes"]
 tags: ["Devops", "SRE","Kubernetes"]
 contributors: [atharva2six]
@@ -14,14 +14,11 @@ pinned: false
 homepage: false
 comments: true
 ---
-## Master and Node Components in Kubernetes
 
 ## Introduction
 Kubernetes has revolutionized how we deploy and manage containerized applications. At its core, Kubernetes is built on a robust architecture that divides responsibilities between the **Control Plane (Master)** and the **Worker Nodes (Node Pool)**. Understanding these components is crucial for managing and operating Kubernetes clusters effectively. In this blog post, we will explore each component in detail, discuss their interactions, and highlight their significance in ensuring a reliable and scalable Kubernetes environment.
 
 ## Kubernetes Architecture Overview
-
-![Kubernetes Architecture Diagram](https://kubernetes.io/docs/concepts/overview/components/k8s-architecture.png)
 
 A Kubernetes cluster consists of two main parts:
 - **Control Plane (Master Node)** – Manages the cluster and makes global decisions.

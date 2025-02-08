@@ -2,8 +2,8 @@
 title: "Kubernetes 101: Pods, ReplicaSets, and Deployments"
 description: "Introduction to Kubernetes"
 excerpt: "Introductory guide to Kubernetes foundational components: Pod, Deployment and Replicaset"
-date: 2025-02-08T20:41:02+05:30
-lastmod: 2025-02-08T20:41:02+05:30
+date: 2025-02-03T20:41:02+05:30
+lastmod: 2025-02-02T20:41:02+05:30
 draft: false
 weight: 100
 images: [kubernetes_cloud.jpg]

@@ -2,11 +2,11 @@
 title: "AWS ECS Service Discovery: Simplified Service Communication"
 description: "AWS ECS Service Discovery enables seamless communication between services by automatically registering ECS tasks to DNS and eliminating manual service registration."
 excerpt: "Learn how AWS ECS Service Discovery simplifies inter-service communication, integrates with Route 53, and enhances scalability for containerized applications."
-date: 2025-02-03T12:00:00
+date: 2025-02-07T12:00:00
 lastmod: 2025-02-03T12:00:00 
 draft: false
 weight: 100
-images: [newz.jpg]
+images: [new.jpg]
 categories: ["AWS", "ECS"]
 tags: ["cloud", "DevOps", "AWS", "ECS", "service-discovery"]
 contributors: ["Kalyankumar Vinayakabaskaran"]
